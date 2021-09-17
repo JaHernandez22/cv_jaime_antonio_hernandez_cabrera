@@ -1,0 +1,227 @@
+.Nav_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(102, 102, 102);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+.Titulo{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/*Datos Personales */
+
+#foto_perfil{
+    margin-right: 100px;
+}
+.objetivo_datos{
+    margin-right: 20px;
+}
+
+
+body{
+    background: linear-gradient(
+    -10deg, #3ddbff6d, #00000056);  
+}
+.circular--square {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    border: 2px solid;
+  }
+.circular--square2{
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border: 1px transparent;
+  }
+
+
+.Datos{
+      text-align: justify;
+      margin: 10px;
+      margin-top: 20px;
+      letter-spacing: 3px;
+      font-weight: bold;
+  }
+#contenedor{
+    display: flex   ;
+    margin: 25px;
+  }
+  /*
+#Datos_Personales{
+    max-width: 98%;
+    margin: 0 auto;
+    background: linear-gradient(
+    -45deg, #3ddbff6d, #00000056);
+    grid-column: -1/3;
+    border: 4px solid rgba(255, 255, 255, 0.933);
+    border-radius: 1em;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 1.5;
+    justify-self: start;   
+}
+*/
+#Datos_Personales{
+    max-width: 98%;
+    margin: 0 auto;  
+    grid-column: -1/3; 
+    border: 4px solid rgba(255, 255, 255, 0.933);
+    border-radius: 1em;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 1.5;
+    justify-self: start;   
+}
+#formacion_academica{
+  display: flex;
+}
+
+#formacion_flex{
+  max-width: 50%;
+  margin: 0 auto;  
+  grid-column: -1/3; 
+  border: 4px solid rgba(255, 255, 255, 0.933);
+  border-radius: 1em;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.5;
+  justify-self: start; 
+  
+}
+#inf_form{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+#inf_forms{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 160px;
+}
+#exp_laboral{
+  display: flex;
+}
+#exp_sect{
+  max-width: 50%;
+  margin: 0 auto;  
+  grid-column: -1/3; 
+  border: 4px solid rgba(255, 255, 255, 0.933);
+  border-radius: 1em;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.5;
+  justify-self: start;
+  margin-right: 10px;
+  padding: -5px;
+
+}
+#titulo_exp{
+  text-align: center;
+}
+#exp_curp{
+  text-align: center;
+  text-align: justify;
+}
+#box_habilidades{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20px;
+}
+#tutu{
+text-align: center;
+}
+
+
+
+
+
+
+* {box-sizing: border-box}
+
+.container {
+  display: flex;
+  width: 25%;
+  align-items: center;
+  
+}
+
+.skills {
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #000000;}
+.css {width: 80%; background-color: #000000;}
+.js {width: 65%; background-color: #000000;}
+.php {width: 60%; background-color: #000000;}
+.ingles {width: 90%; background-color: #000000;}
+.italiano {width: 70%; background-color: #000000;}
+
+#box_titulo{
+  margin-right: 5px;
+}
+.area{
+  display: flex;
+  justify-content: center;
+}
+#contacto{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+#contacto_box{
+  display: flex;
+  justify-content: center;
+  max-width: 50%;
+  grid-column: -1/3; 
+  border: 4px solid rgba(255, 255, 255, 0.933);
+  border-radius: 1em;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.5;
+  margin-left: 300px;
+  margin-bottom: 20px;
+
+}
+.error{
+  background-color: rgba(255, 80, 67, 0.816);
+  margin-top: 20px;
+  padding: 10px;
+}
+.correcto{
+  margin-top: 10px;
+
+  background-color: rgb(29, 191, 121);
+  height: 20px;
+}
+#redes_sociales{
+
+  width: 30px; 
+  height: 30px;
+  margin-right: 10px;
+}
